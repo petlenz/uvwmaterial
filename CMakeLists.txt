@@ -1,9 +1,19 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.11)
 
+
+# Project
+# =======
 project(uvwmaterial CXX)
 
 set(UVWMATERIAL_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
 set(UVWMATERIAL_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include/uvwmaterial)
+
+
+# Dependencies
+# ============
+find_package(tmech 1.0.0 REQUIRED)
+find_package(Boost 1.71.0 REQUIRED)
+find_package(nlohmann_json 3.1.1 REQUIRED)
 
 # Versionning
 # ===========
@@ -299,7 +309,7 @@ if(UVWMATERIAL_INSTALL_LIBRARY)
   include(CMakePackageConfigHelpers)
   write_basic_package_version_file(
     "${PROJECT_NAME}ConfigVersion.cmake"
-    VERSION {${PROJECT_NAME}_VERSION}
+    VERSION ${${PROJECT_NAME}_VERSION}
     COMPATIBILITY SameMajorVersion)
 
   configure_package_config_file(
