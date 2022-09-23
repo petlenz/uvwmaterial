@@ -1,0 +1,3 @@
+/home/peter/SynologyDrive/Drive/uvwmat_new/uvwmat/example/composite/linear/rule_of_mixture/voigt_kernal/build/CMakeFiles/edit_cache.dir
+/home/peter/SynologyDrive/Drive/uvwmat_new/uvwmat/example/composite/linear/rule_of_mixture/voigt_kernal/build/CMakeFiles/rebuild_cache.dir
+/home/peter/SynologyDrive/Drive/uvwmat_new/uvwmat/example/composite/linear/rule_of_mixture/voigt_kernal/build/CMakeFiles/voigt.dir

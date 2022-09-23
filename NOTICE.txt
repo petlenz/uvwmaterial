@@ -1,0 +1,5 @@
+uvwmaterial is a C++ library for the numerical study of the physics of continuous materials
+Copyright 2022 Peter Lenz
+
+
+This product includes software developed by Peter Lenz
