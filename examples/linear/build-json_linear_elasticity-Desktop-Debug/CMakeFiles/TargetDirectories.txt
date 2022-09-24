@@ -1,3 +1,0 @@
-/home/peter/SynologyDrive/Drive/uvwmat_new/uvwmat/examples/linear/build-json_linear_elasticity-Desktop-Debug/CMakeFiles/json_linear_elasticity.dir
-/home/peter/SynologyDrive/Drive/uvwmat_new/uvwmat/examples/linear/build-json_linear_elasticity-Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/peter/SynologyDrive/Drive/uvwmat_new/uvwmat/examples/linear/build-json_linear_elasticity-Desktop-Debug/CMakeFiles/rebuild_cache.dir
