@@ -1,3 +1,10 @@
+/***************************************************************************
+* Copyright (c) Peter Lenz                                                 *
+*                                                                          *
+* Distributed under the terms of the BSD 3-Clause License.                 *
+*                                                                          *
+* The full license is in the file LICENSE, distributed with this software. *
+****************************************************************************/
 #ifndef STATE_FUNCTION_STRAIN_BASED_MEAT_H
 #define STATE_FUNCTION_STRAIN_BASED_MEAT_H
 

@@ -1,3 +1,10 @@
+/***************************************************************************
+* Copyright (c) Peter Lenz                                                 *
+*                                                                          *
+* Distributed under the terms of the BSD 3-Clause License.                 *
+*                                                                          *
+* The full license is in the file LICENSE, distributed with this software. *
+****************************************************************************/
 #ifndef SMALL_STRAIN_SHORT_FIBRE_NONLOCAL_COMPOSITE_BONES_H
 #define SMALL_STRAIN_SHORT_FIBRE_NONLOCAL_COMPOSITE_BONES_H
 

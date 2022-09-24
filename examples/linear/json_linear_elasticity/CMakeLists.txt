@@ -9,5 +9,5 @@ find_package(Matplot++ REQUIRED)
 
 
 add_executable(json_linear_elasticity main.cpp)
-target_link_libraries(json_linear_elasticity PUBLIC matplot)
+target_link_libraries(json_linear_elasticity PUBLIC Matplot++::matplot)
 

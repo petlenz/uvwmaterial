@@ -1,3 +1,10 @@
+/***************************************************************************
+* Copyright (c) Peter Lenz                                                 *
+*                                                                          *
+* Distributed under the terms of the BSD 3-Clause License.                 *
+*                                                                          *
+* The full license is in the file LICENSE, distributed with this software. *
+****************************************************************************/
 // Copyright 2021 Peter Lenz
 //
 // Licensed under the Apache License, Version 2.0 (the "License");

@@ -1,8 +1,8 @@
 #include <iostream>
 #include <matplot/matplot.h>
 #include <tmech/tmech.h>
-#include "../../../../../include/uvwmat.h"
-#include "../../../../../external_libraries/nlohmann/json.hpp"
+#include <uvwmaterial/uvwmaterial.h>
+#include <nlohmann/json.hpp>
 
 
 int main()

@@ -9,4 +9,4 @@ add_executable(linear_elasticity main.cpp)
 
 find_package(Matplot++ REQUIRED)
 
-target_link_libraries(linear_elasticity PUBLIC matplot)
+target_link_libraries(linear_elasticity PUBLIC Matplot++::matplot)

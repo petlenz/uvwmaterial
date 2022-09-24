@@ -1,8 +1,10 @@
 #include <iostream>
-#include <tmech/tmech.h>
 #include <matplot/matplot.h>
-#include "../../../include/uvwmat.h"
-#include "../../../external_libraries/nlohmann/json.hpp"
+#include <tmech/tmech.h>
+#include <boost/container/flat_map.hpp>
+#include <boost/math/special_functions.hpp>
+#include <uvwmaterial/uvwmaterial.h>
+#include <nlohmann/json.hpp>
 
 using namespace std;
 
@@ -33,13 +35,13 @@ int main()
         load_steps.push_back(i);
 
         //set strain tensor
-        small_strain->set_strain_tensor(eps*i);
+        small_strain->strain_tensor() = eps*i;
 
         //update tangent and stresses
         small_strain->update();
 
         //get constant reference of stress tensor
-        const auto& sigma{small_strain->get_stress_tensor()};
+        const auto& sigma{small_strain->stress_tensor()};
 
         //determine von mises stress
         von_Mises.push_back(std::sqrt(1.5*tmech::dcontract(tmech::dev(sigma),tmech::dev(sigma))));

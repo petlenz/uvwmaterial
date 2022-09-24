@@ -1,7 +1,8 @@
 #include <iostream>
 #include <matplot/matplot.h>
 #include <tmech/tmech.h>
-#include "../../../include/uvwmat.h"
+#include <boost/container/flat_map.hpp>
+#include <uvwmaterial/uvwmaterial.h>
 
 int main()
 {
@@ -13,14 +14,6 @@ int main()
 
     //or
     //linear_elasticity.set_parameter(E, nu);
-
-    //or
-    //std::vector<double> parameter{E, nu};
-    //linear_elasticity.set_parameter(parameter.begin(), parameter.end());
-
-    //or
-    //linear_elasticity.set_parameter(std::make_pair(0ul, E));
-    //linear_elasticity.set_parameter(std::make_pair(1ul, nu));
 
     tmech::tensor<double, 3, 2> eps;
     eps(0,0) = 1;
@@ -36,20 +29,24 @@ int main()
         load_steps.push_back(i);
 
         //set strain tensor
-        linear_elasticity.set_strain_tensor(eps*i);
+        linear_elasticity.strain_tensor() = eps*i;
 
         //update tangent and stresses
         linear_elasticity.update();
 
         //get constant reference of stress tensor
-        const auto& sigma{linear_elasticity.get_stress_tensor()};
+        const auto& sigma{linear_elasticity.stress_tensor()};
 
         //determine von mises stress
         von_Mises.push_back(std::sqrt(1.5*tmech::dcontract(tmech::dev(sigma),tmech::dev(sigma))));
     }
 
     matplot::plot(load_steps, von_Mises, "-o -black");
-    matplot::show();
+    matplot::xlabel("load steps");
+    matplot::ylabel("von Mises stress");
+    matplot::title("Linear elasticity");
+    matplot::save("linear_elasticity.png");
+    //matplot::show();
 
 
     return 0;

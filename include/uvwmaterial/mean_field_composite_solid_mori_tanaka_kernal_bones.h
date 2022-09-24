@@ -1,3 +1,10 @@
+/***************************************************************************
+* Copyright (c) Peter Lenz                                                 *
+*                                                                          *
+* Distributed under the terms of the BSD 3-Clause License.                 *
+*                                                                          *
+* The full license is in the file LICENSE, distributed with this software. *
+****************************************************************************/
 #ifndef MEAN_FIELD_COMPOSITE_SOLID_MORI_TANAKA_KERNAL_BONES_H
 #define MEAN_FIELD_COMPOSITE_SOLID_MORI_TANAKA_KERNAL_BONES_H
 
@@ -11,7 +18,7 @@ public:
 
     mean_field_composite_mori_tanaka_kernal() {}
 
-    constexpr inline virtual void determine_strain_concentration_tensors(mean_field_composite_solid_base<_T, _Dim, _Container> & _composite) const override {
+    inline virtual void determine_strain_concentration_tensors(mean_field_composite_solid_base<_T, _Dim, _Container> & _composite) const override {
         auto& A{dynamic_cast<composite_material_solid_base<_T, _Dim, _Container>*>(&_composite)->strain_concentration_tensors()};
         const auto& inclusions{_composite.inclusions()};
         const auto* matrix_material{make_solid_material(_composite.matrix_material())};
