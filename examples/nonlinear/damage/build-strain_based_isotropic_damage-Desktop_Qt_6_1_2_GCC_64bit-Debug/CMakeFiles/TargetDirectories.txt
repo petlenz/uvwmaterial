@@ -1,3 +1,0 @@
-/home/peter/SynologyDrive/Drive/uvwmat_new/uvwmat/example/nonlinear/damage/build-strain_based_isotropic_damage-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
-/home/peter/SynologyDrive/Drive/uvwmat_new/uvwmat/example/nonlinear/damage/build-strain_based_isotropic_damage-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/home/peter/SynologyDrive/Drive/uvwmat_new/uvwmat/example/nonlinear/damage/build-strain_based_isotropic_damage-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/strain_based_damage.dir

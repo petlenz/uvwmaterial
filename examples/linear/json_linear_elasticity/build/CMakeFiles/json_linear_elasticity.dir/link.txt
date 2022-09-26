@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/json_linear_elasticity.dir/main.cpp.o  -o json_linear_elasticity  -lmatplot 

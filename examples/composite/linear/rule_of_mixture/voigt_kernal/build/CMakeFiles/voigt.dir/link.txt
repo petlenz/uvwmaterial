@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/voigt.dir/main.cpp.o  -o voigt  -lmatplot 

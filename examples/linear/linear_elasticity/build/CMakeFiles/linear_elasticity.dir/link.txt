@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/linear_elasticity.dir/main.cpp.o  -o linear_elasticity  -lmatplot -fopenmp 
