@@ -39,6 +39,12 @@ for details.
    :maxdepth: 2
 
    api/getting_started
+   
+   .. toctree::
+   :caption: MATERIALS
+   :maxdepth: 2
+
+   api/materials
 
 .. toctree::
    :caption: QUICK REFERENCE UVWMATERIAL
