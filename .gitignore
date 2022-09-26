@@ -37,7 +37,8 @@ docs/xml/
 
 
 # Build directory
-build/
+build/*
+*/build/*
 
 # Documentation build artefacts
 docs/CMakeCache.txt
