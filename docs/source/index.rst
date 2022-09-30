@@ -40,7 +40,7 @@ for details.
 
    api/getting_started
    
-   .. toctree::
+.. toctree::
    :caption: MATERIALS
    :maxdepth: 2
 
@@ -55,6 +55,7 @@ for details.
    :caption: API REFERENCE UVWMATERIAL
    :maxdepth: 2
    
+   api/material_base
    
 .. toctree::
    :caption: DEVELOPER ZONE

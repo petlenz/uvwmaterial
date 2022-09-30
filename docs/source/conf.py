@@ -19,13 +19,13 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 #    app.add_css_file("main_stylesheet.css")
 
 extensions = ['breathe','sphinx.ext.imgmath',]
-breathe_projects = { 'tmech': '_build/xml' }
-breathe_default_project = "tmech"
+breathe_projects = { 'uvwmaterial': '_build/xml' }
+breathe_default_project = "uvwmaterial"
 templates_path = ['_templates']
 html_static_path = ['_static']
 source_suffix = '.rst'
 master_doc = 'index'
-project = 'tmech'
+project = 'uvwmaterial'
 copyright = '2022, Peter Lenz'
 author = 'Peter Lenz'
 
@@ -97,7 +97,7 @@ exclude_patterns = []
 highlight_language = 'c++'
 pygments_style = 'sphinx'
 todo_include_todos = False
-htmlhelp_basename = 'tmechdoc'
+htmlhelp_basename = 'uvwmaterialdoc'
 
 html_js_files = [
     'goatcounter.js'

@@ -38,13 +38,15 @@ docs/xml/
 
 # Build directory
 build/*
-*/build/*
+docs/source/_build/*
 
 # Documentation build artefacts
 docs/CMakeCache.txt
-docs/xml/
 docs/build/
 docs/*.tmp
+docs/source/_build/
+docs/source/_static/
+docs/source/_templates/
 
 # Cmakelist files
 CMakeLists.txt.user
