@@ -19,6 +19,10 @@ tba
 
 ## Documentation
 
+Current supported materials:
+
+- Linear elasticity
+
 For more information on using `uvwmaterial`, check out the documentation
 
 https://uvwmaterial.readthedocs.io
