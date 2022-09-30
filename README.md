@@ -19,7 +19,9 @@ tba
 
 ## Documentation
 
-tba
+For more information on using `uvwmaterial`, check out the documentation
+
+https://uvwmaterial.readthedocs.io
 
 ## Issues and enhancements
 
