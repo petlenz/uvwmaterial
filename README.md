@@ -39,13 +39,12 @@ tba
 
 ### Basic usage
 
-..code 
+```cpp
 #include <iostream>
 #include <matplot/matplot.h>
 #include <tmech/tmech.h>
 #include <boost/container/flat_map.hpp>
 #include <uvwmaterial/uvwmaterial.h>
-```cpp
 int main()
 {
     double E{210000}, nu{0.33};
