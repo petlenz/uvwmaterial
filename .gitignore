@@ -51,3 +51,7 @@ docs/source/_templates/
 # Cmakelist files
 CMakeLists.txt.user
 
+
+# Qt Creator per-user settings
+*.user
+*.user.*
